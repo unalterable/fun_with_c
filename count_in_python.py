@@ -1,8 +1,9 @@
 import time
 
 start = time.time()
-
-for i in range(0, 1000000000):
+i=0
+while i < 100000000:
+  i+=1
   pass
 
 end = time.time()
