@@ -2,7 +2,7 @@
 #include <time.h>
 
 void main() {
-  int i;
+  register int i;
   clock_t begin = clock();
   while (i < 1000000000){
     i+=1;  
